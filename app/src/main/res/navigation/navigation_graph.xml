@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/gorevDagilimiFragment">
+
+    <fragment
+        android:id="@+id/gorevDagilimiFragment"
+        android:name="com.hbacakk.workmanager.fragment.GorevDagilimiFragment"
+        android:label="fragment_gorev_dagilimi"
+        tools:layout="@layout/fragment_gorev_dagilimi" />
+    <fragment
+        android:id="@+id/gorevlerFragment"
+        android:name="com.hbacakk.workmanager.fragment.IslemlerFragment"
+        android:label="fragment_gorevler"
+        tools:layout="@layout/fragment_gorevler" >
+        <action
+            android:id="@+id/action_gorevlerFragment_to_yeniGorevFragment"
+            app:destination="@id/yeniGorevFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/personellerFragment"
+        android:name="com.hbacakk.workmanager.fragment.PersonellerFragment"
+        android:label="fragment_personeller"
+        tools:layout="@layout/fragment_personeller" />
+    <fragment
+        android:id="@+id/yeniGorevFragment"
+        android:name="com.hbacakk.workmanager.fragment.YeniGorevFragment"
+        android:label="fragment_yeni_gorev"
+        tools:layout="@layout/fragment_yeni_gorev" />
+</navigation>

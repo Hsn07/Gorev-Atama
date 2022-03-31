@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/gunluk"
+        android:title="Günlük"
+        android:icon="@drawable/ic_work_user"
+        />
+    <item
+        android:id="@+id/gorevler"
+        android:title="Islemler"
+        android:icon="@drawable/ic_icon"
+        />
+    <item
+        android:id="@+id/personeller"
+        android:title="Personeller"
+        android:icon="@drawable/ic_users"
+        />
+</menu>
