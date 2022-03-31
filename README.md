@@ -149,6 +149,9 @@ Bunu farklı zorluk seviyesinde ki sayılar ile test edebiliriz.
 - Bunlar gibi iyileştirmeler yapılarak trello gibi bir uygulama benzeri efektif bir uygulama ortaya çıkabilir.
 
 
+
+MvdsLuFZnx8mZwqJ
+
 >Hasan BACAK
 >(Android Developer)
 
